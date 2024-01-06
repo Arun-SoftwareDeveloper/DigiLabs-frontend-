@@ -1,0 +1,46 @@
+/* BankingContainer.css */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bankContainer-spacing {
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.compareFeatures {
+  animation: fadeInUp 1s ease-out;
+}
+
+.feature-item {
+  animation: fadeIn 1s ease-out;
+}
+
+.compare-features-btn {
+  animation: fadeIn 1s ease-out;
+}
+
+.feature-item {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  transition: transform 0.3 ease-out;
+}
+
+.feature-item :hover {
+  transform: scale(1.2);
+}

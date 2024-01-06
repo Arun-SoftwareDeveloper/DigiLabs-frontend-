@@ -1,0 +1,82 @@
+/* MidContainer.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.midContainer {
+  padding: 60px 0;
+}
+
+.midContainer h1,
+.midContainer p {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.midContainer h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  animation-delay: 0.5s;
+}
+
+.midContainer p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  animation-delay: 1s;
+}
+
+.midContainer button {
+  background-color: violet;
+  transition: background-color 0.3s ease-in-out;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: slideIn 1s ease-out forwards, fadeIn 1s ease-out forwards; /* Combine animations */
+  animation-delay: 1.5s; /* Delay the combined animation */
+}
+
+.midContainer button:hover {
+  background-color: darkviolet;
+}
+
+.midContainer {
+  position: relative;
+}
+
+.unlock-btn {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.unlock-btn:hover {
+  background-color: rgb(167, 83, 204);
+  box-shadow: 2px 0px 29px 3px violet;
+}
+
+.unlock-btn:active {
+  transform: scale(0.95);
+}
+
+.companyLogosContainer {
+  margin-top: 40px;
+  overflow-x: auto;
+}
+
+.companyLogo {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 10px;
+  animation: fadeIn 1s ease-out;
+  animation-delay: 2s;
+}

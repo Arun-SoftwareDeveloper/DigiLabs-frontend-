@@ -1,0 +1,39 @@
+/* ModeUIContainer.css */
+
+.modeUIContainer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.modeUI {
+  font-size: 34px;
+}
+.modeUIContainer h5 {
+  font-size: 38px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.modeUIContainer p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+}
+.btn {
+  cursor: pointer;
+}
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+  .modeUIContainer {
+    padding: 15px;
+  }
+
+  .modeUIContainer h5 {
+    font-size: 24px;
+  }
+
+  .modeUIContainer p {
+    font-size: 14px;
+  }
+}

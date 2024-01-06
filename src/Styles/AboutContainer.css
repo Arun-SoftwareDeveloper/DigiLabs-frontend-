@@ -1,0 +1,26 @@
+/* Add this CSS to your stylesheet (e.g., App.css) */
+
+.aboutContainer {
+  padding: 20px;
+  background-color: #f8f9fa; /* Background color for the container */
+}
+
+.wrap-container {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for the wrap-container */
+  padding: 20px;
+  border-radius: 10px; /* Border radius for rounded corners */
+}
+
+.wrap-container h6 {
+  color: #007bff; /* Text color for h6 inside wrap-container */
+}
+
+.wrap-container h5 {
+  color: #28a745; /* Text color for h5 inside wrap-container */
+}
+
+.wrap-container p {
+  color: #6c757d; /* Text color for p inside wrap-container */
+}
+
+/* Add any other styles as needed */

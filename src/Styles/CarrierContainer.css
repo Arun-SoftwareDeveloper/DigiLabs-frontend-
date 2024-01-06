@@ -1,0 +1,53 @@
+/* CarrierContainer.css */
+
+.carrierContainer {
+  text-align: center;
+}
+
+.carrierContainer img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 10px;
+}
+
+.carrierContainer h5 {
+  margin-top: 20px;
+}
+
+.carrierContainer img.profile-image {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 10px;
+  border-radius: 50%;
+  margin-top: 70px;
+}
+
+.carrierContainer h6 {
+  margin-top: 10px;
+}
+
+.carrierContainer p {
+  margin-bottom: 20px;
+}
+
+.carrierContainer .fa-star {
+  color: gold;
+}
+
+.carrierContainer h3 {
+  margin-top: 70px;
+}
+
+.carrierContainer button {
+  margin-top: 20px;
+}
+
+.carrierContainer button i {
+  margin-left: 5px;
+}
+
+/* Additional styling for button hover effect */
+.carrierContainer button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
