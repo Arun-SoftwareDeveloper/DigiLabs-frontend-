@@ -3,6 +3,10 @@ import spend from "../Images/spend.png";
 import "../Styles/AboutContainer.css";
 
 function AboutContainer() {
+  const rangeValue1 = 75;
+  const rangeValue2 = 55;
+  const rangeValue3 = 15;
+
   return (
     <div className="aboutContainer container mt-4" id="processing">
       <div className="row">
@@ -29,12 +33,45 @@ function AboutContainer() {
           </p>
           <br />
           <div className="row">
-            <div className="col-md-4">100 USD</div>
-            {/* Here set the range like set 75% */}
-            <div className="col-md-4">500 USD</div>
-            {/* Here set the range like set 55% */}
-            <div className="col-md-4">1000 USD</div>
-            {/* Here set the range like set 75% */}
+            <div className="col-md-4">
+              <label htmlFor="range1">100 USD</label>
+              <input
+                type="range"
+                id="range1"
+                value={rangeValue1}
+                min="0"
+                max="100"
+                step="1"
+                disabled
+              />
+              <p>{`${rangeValue1}%`}</p>
+            </div>
+            <div className="col-md-4">
+              <label htmlFor="range2">500 USD</label>
+              <input
+                type="range"
+                id="range2"
+                value={rangeValue2}
+                min="0"
+                max="100"
+                step="1"
+                disabled
+              />
+              <p>{`${rangeValue2}%`}</p>
+            </div>
+            <div className="col-md-4">
+              <label htmlFor="range3">1000 USD</label>
+              <input
+                type="range"
+                id="range3"
+                value={rangeValue3}
+                min="0"
+                max="100"
+                step="1"
+                disabled
+              />
+              <p>{`${rangeValue3}%`}</p>
+            </div>
           </div>
         </div>
       </div>
