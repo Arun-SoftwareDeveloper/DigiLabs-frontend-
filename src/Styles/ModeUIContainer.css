@@ -1,5 +1,3 @@
-/* ModeUIContainer.css */
-
 .modeUIContainer {
   background-color: #f8f8f8;
   padding: 20px;
@@ -23,7 +21,6 @@
 .btn {
   cursor: pointer;
 }
-/* Additional styling for responsiveness */
 @media (max-width: 768px) {
   .modeUIContainer {
     padding: 15px;

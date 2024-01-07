@@ -1,4 +1,3 @@
-/* CompanyLogosContainer.css */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -18,7 +17,7 @@
   max-width: 100px;
   max-height: 100px;
   margin-right: 10px;
-  animation: fadeIn 0.8s ease-out; /* Adjust duration and easing as needed */
+  animation: fadeIn 0.8s ease-out;
 }
 
 .companyLogosContainer img {
@@ -28,5 +27,3 @@
 .companyLogosContainer img:hover {
   transform: scale(1.2);
 }
-
-/* Add additional styles or animations as needed */
